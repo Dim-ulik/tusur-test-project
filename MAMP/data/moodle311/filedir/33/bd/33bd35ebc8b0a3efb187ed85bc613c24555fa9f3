@@ -1,0 +1,5 @@
+timesplitting,nfeatures,moodleversion,targetcolumn,targettype,targetclasses
+"\core\analytics\time_splitting\single_range",1,2017110300,"\core\analytics\target\no_teaching",discrete,"[0,1]"
+sampleid,"\core_course\analytics\indicator\no_teacher"
+2-0,-1
+3-0,1

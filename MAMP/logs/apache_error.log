@@ -1,0 +1,23 @@
+[Wed Mar 01 00:24:20 2023] [notice] Digest: generating secret for digest authentication ...
+[Wed Mar 01 00:24:20 2023] [notice] Digest: done
+[Wed Mar 01 00:24:20 2023] [notice] FastCGI: process manager initialized (pid 28936)
+[Wed Mar 01 00:24:20 2023] [notice] Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.4.2 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.24.0 configured -- resuming normal operations
+[Wed Mar 01 00:24:21 2023] [error] [client ::1] File does not exist: /Applications/MAMP/htdocs/apple-touch-icon-precomposed.png
+[Wed Mar 01 00:24:21 2023] [error] [client ::1] File does not exist: /Applications/MAMP/htdocs/apple-touch-icon.png
+[Wed Mar 01 00:26:56 2023] [error] [client ::1] File does not exist: /Applications/MAMP/htdocs/tree
+[Wed Mar 01 01:59:23 2023] [notice] caught SIGTERM, shutting down
+[Wed Mar 01 01:59:51 2023] [notice] Digest: generating secret for digest authentication ...
+[Wed Mar 01 01:59:51 2023] [notice] Digest: done
+[Wed Mar 01 01:59:51 2023] [notice] FastCGI: process manager initialized (pid 34478)
+[Wed Mar 01 01:59:51 2023] [notice] Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.4.2 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.24.0 configured -- resuming normal operations
+[Wed Mar 01 03:17:36 2023] [error] [client ::1] File does not exist: /Applications/MAMP/htdocs/admin
+[Wed Mar 01 03:57:17 2023] [error] [client ::1] File does not exist: /Applications/MAMP/htdocs/admin
+[Wed Mar 01 04:58:03 2023] [notice] caught SIGTERM, shutting down
+[Wed Mar 01 04:58:11 2023] [notice] Digest: generating secret for digest authentication ...
+[Wed Mar 01 04:58:11 2023] [notice] Digest: done
+[Wed Mar 01 04:58:11 2023] [notice] FastCGI: process manager initialized (pid 43675)
+[Wed Mar 01 04:58:11 2023] [notice] Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.4.2 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.24.0 configured -- resuming normal operations
+[Wed Mar 01 21:15:31 2023] [error] [client ::1] File does not exist: /Applications/MAMP/htdocs/moodle311/phpmyadmin
+[Thu Mar 02 00:33:17 2023] [error] [client ::1] File does not exist: /Applications/MAMP/htdocs/moodle311/local/pages/mypage
+[Thu Mar 02 00:36:32 2023] [error] [client ::1] File does not exist: /Applications/MAMP/htdocs/local, referer: http://localhost:8888/moodle311/
+[Thu Mar 02 04:02:42 2023] [error] [client ::1] File does not exist: /Applications/MAMP/htdocs/moodle311/phpmyadmin

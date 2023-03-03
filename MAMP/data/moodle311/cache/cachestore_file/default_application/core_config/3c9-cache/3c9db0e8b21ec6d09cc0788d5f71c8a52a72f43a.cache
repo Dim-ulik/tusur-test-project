@@ -1,5 +1,0 @@
-a:7:{s:15:"backgroundimage";s:0:"";s:10:"brandcolor";s:0:"";s:6:"preset";s:12:"default.scss";s:11:"presetfiles";s:0:"";s:4:"scss";s:305:"body {font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";}
-
-/* set the maximal width of the site */
-.container-fluid {margin: 0 auto; max-width: 1600px; }  /* without the right block column 1300px */
-";s:7:"scsspre";s:0:"";s:7:"version";s:10:"2021051700";}

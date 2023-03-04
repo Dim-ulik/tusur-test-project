@@ -40,6 +40,12 @@ class block_equation extends block_base {
             $record->res2 = (-$b - sqrt($d)) / (2*$a);
         }
 
+        if (!$this->checkInput($a, $b, $c)) {
+            $_SESSION['equation_error'] = true;
+            header('Location: ' . $this->page->url);
+            return;
+        }
+
         if ($DB->insert_record('block_equation_table', $record)) {
             $_SESSION['equation_solver'] = true;
             header('Location: ' . $this->page->url);
@@ -67,6 +73,22 @@ class block_equation extends block_base {
                 $this->content->text .= "<div>x2 = {$res2}</div>";
             }
         }
+        $this->content->text .= "</div>";
+    }
+
+    function showError() {
+        $this->content->text .= "<div class='error_message'>Ошибка введенных данных!</div>";
+    }
+
+    function showTheInfAfterSolving() {
+        if (isset($_SESSION['equation_error'])) {
+            if ($_SESSION['equation_error'] === true) {
+                $this->showError();
+                $_SESSION['equation_error'] = false;
+                return;
+            }
+        }
+        $this->showTheLastResult();
     }
 
     public function get_content() {
@@ -130,11 +152,8 @@ class block_equation extends block_base {
         }
     </script>";
 
-        if (isset($_SESSION['equation_solver'])) {
-            $this->showTheLastResult();
-        }
+        $this->showTheInfAfterSolving();
 
-        $this->content->text .= "</div>";
         $this->content->text .= "<div><a href='" . $this->page->url . "blocks/equation/pages/table_results.php' class='a-class'>Показать историю решений</a></div>";
         $this->content->text .= "</div>";
 

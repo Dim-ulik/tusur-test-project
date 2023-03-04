@@ -61,3 +61,8 @@
     color: darkred;
     margin-bottom: 5px;
 }
+
+.error_message {
+    color: darkred;
+    font-weight: bold;
+}

@@ -56,6 +56,9 @@ class block_equation extends block_base {
         global $DB;
         $sql = "SELECT * FROM mdl_block_equation_table ORDER BY id DESC LIMIT 1";
         $lastResult = $DB->get_record_sql($sql);
+        if (!$lastResult) {
+            return;
+        }
 
         $res1 = $lastResult->res1;
         $res2 = $lastResult->res2;
@@ -74,6 +77,7 @@ class block_equation extends block_base {
             }
         }
         $this->content->text .= "</div>";
+        $_SESSION['equation_solver'] = false;
     }
 
     function showError() {
@@ -88,7 +92,9 @@ class block_equation extends block_base {
                 return;
             }
         }
-        $this->showTheLastResult();
+        if (isset($_SESSION['equation_solver'])) {
+            if ($_SESSION['equation_solver'] === true) $this->showTheLastResult();
+        }
     }
 
     public function get_content() {

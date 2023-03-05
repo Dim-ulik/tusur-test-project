@@ -3,3 +3,5 @@
 .DS_Store
 .idea/vcs.xml
 .idea/workspace.xml
+equation/.idea/equation.iml
+equation/.idea/modules.xml
